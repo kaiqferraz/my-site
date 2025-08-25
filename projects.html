@@ -1,128 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Portfólio de projetos de Kaique Ferraz - Desenvolvedor e QA Engineer" />
+        <meta name="author" content="Kaique Ferraz" />
         <title>Kaique Ferraz | Projetos</title>
-        <!-- Favicon-->
+        
+        <!-- Favicon -->
         <link rel="icon" type="image/png" href="assets/android.png" />
-        <!-- Custom Google font-->
+        
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        
+        <!-- Bootstrap Icons -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        
+        <!-- Custom CSS -->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
-            <!-- Navigation-->
+            <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Kaique Ferraz</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <a class="navbar-brand" href="index.html">
+                        <span class="fw-bolder text-primary">Kaique Ferraz</span>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Meu Currículo</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projetos</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Meu Currículo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projetos</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contato</a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
             </nav>
-            <!-- Projects Section-->
+            
+            <!-- Projects Section -->
             <section class="py-5">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projetos</span></h1>
+                        <h1 class="display-5 fw-bolder mb-0">
+                            <span class="text-gradient d-inline">Projetos</span>
+                        </h1>
                     </div>
+                    
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
-
-                            <!-- Project Card 1-->
-                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-    <div class="card-body p-0">
-        <div class="row g-0 align-items-center">
-            <div class="col-md-8 p-5">
-                <h3 class="fw-bolder">Automação WEB com Cypress</h3>
-                <p>O projeto automation-exercise foi desenvolvido com foco na automação de testes web, aplicando boas práticas de mercado e utilizando Design Patterns para garantir uma estrutura escalável, organizada e de fácil manutenção. Implementado em JavaScript, o projeto faz uso do Cypress em conjunto com o Cypress Cucumber, permitindo a escrita de cenários de teste em Gherkin dentro da abordagem de BDD (Behavior Driven Development). Além disso, foram utilizados recursos do DevTools para o mapeamento e inspeção de elementos, assegurando maior precisão e confiabilidade nos testes. Essa combinação de tecnologias e práticas resulta em uma automação clara, padronizada e preparada para evolução contínua.</p>
-                <h5 class="mt-3">Cenários de Teste Implementados 🔍</h5>
-                <ul class="mb-0">
-                    <li><strong>Login:</strong> Testa o login com credenciais válidas.</li>
-                    <li><strong>Busca de Produtos:</strong> Realiza a busca de produtos e valida os resultados.</li>
-                    <li><strong>Adicionar Produto ao Carrinho:</strong> Adiciona produtos ao carrinho e valida a inclusão.</li>
-                    <li><strong>Validar Produtos no Carrinho:</strong> Valida os nomes e preços dos produtos no carrinho.</li>
-                </ul>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid rounded" src="assets/cypress.png" alt="ROBOT-API" style="max-height: 200px; object-fit: contain;" />
-
-                  <div class="mt-3 px-5">
-        <a href="https://github.com/kaiqferraz/automation-exercise" target="_blank" class="btn btn-access-code">
-        Acesse o Código-Fonte
-        </a>
-    </div>
-            </div>
-          
-        </div>
-
-<!-- VIDEO DO PROJETO 1 -->
-<div class="row g-0">
-    <div class="col-12">
-        <div class="ratio ratio-16x9">
-            <!-- Se for um vídeo local -->
-            <video class="rounded w-100" controls playsinline preload="metadata" poster="assets/automation-site.JPG">
-                <source src="assets/automation-exercise.mp4" type="video/mp4">
-                <source src="assets/automation-exercise.webm" type="video/webm">
-                <source src="assets/automation-exercise.mkv" type="video/x-matroska">
-                Seu navegador não suporta vídeos em HTML5.
-              </video>
-
-            <!-- OU se for do YouTube/Vimeo, basta trocar por embed -->
-            <!--
-            <iframe class="rounded w-100" 
-                    src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
-                    title="Demo ROBOT-API"
-                    allowfullscreen>
-            </iframe>
-            -->
-        </div>
-    </div>
-</div>
-
-</div>
-    </div>
-
-    
-
-
-    
+                            <!-- Project Card 1 -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-8 p-5">
+                                            <h3 class="fw-bolder">Automação WEB com Cypress</h3>
+                                            <p>
+                                                O projeto automation-exercise foi desenvolvido com foco na automação de testes web, 
+                                                aplicando boas práticas de mercado e utilizando Design Patterns para garantir uma 
+                                                estrutura escalável, organizada e de fácil manutenção. Implementado em JavaScript, 
+                                                o projeto faz uso do Cypress em conjunto com o Cypress Cucumber, permitindo a 
+                                                escrita de cenários de teste em Gherkin dentro da abordagem de BDD (Behavior Driven Development). 
+                                                Além disso, foram utilizados recursos do DevTools para o mapeamento e inspeção de elementos, 
+                                                assegurando maior precisão e confiabilidade nos testes. Essa combinação de tecnologias 
+                                                e práticas resulta em uma automação clara, padronizada e preparada para evolução contínua.
+                                            </p>
+                                            
+                                            <h5 class="mt-3">Cenários de Teste Implementados 🔍</h5>
+                                            <ul class="mb-0">
+                                                <li><strong>Login:</strong> Testa o login com credenciais válidas.</li>
+                                                <li><strong>Busca de Produtos:</strong> Realiza a busca de produtos e valida os resultados.</li>
+                                                <li><strong>Adicionar Produto ao Carrinho:</strong> Adiciona produtos ao carrinho e valida a inclusão.</li>
+                                                <li><strong>Validar Produtos no Carrinho:</strong> Valida os nomes e preços dos produtos no carrinho.</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-md-4 text-center">
+                                            <img class="img-fluid rounded" 
+                                                 src="assets/cypress.png" 
+                                                 alt="Automação WEB com Cypress" 
+                                                 style="max-height: 200px; object-fit: contain;" />
+                                            
+                                            <div class="mt-3 px-5">
+                                                <a href="https://github.com/kaiqferraz/automation-exercise" 
+                                                   target="_blank" 
+                                                   class="btn btn-access-code">
+                                                    Acesse o Código-Fonte
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Video Demo -->
+                                    <div class="row g-0">
+                                        <div class="col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <video class="rounded w-100" 
+                                                       controls 
+                                                       playsinline 
+                                                       preload="metadata" 
+                                                       poster="assets/automation-site.JPG">
+                                                    <source src="assets/automation-exercise.mp4" type="video/mp4">
+                                                    <source src="assets/automation-exercise.webm" type="video/webm">
+                                                    <source src="assets/automation-exercise.mkv" type="video/x-matroska">
+                                                    Seu navegador não suporta vídeos em HTML5.
+                                                </video>
+                                                
+                                                <!-- Alternative: YouTube/Vimeo Embed -->
+                                                <!--
+                                                <iframe class="rounded w-100" 
+                                                        src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
+                                                        title="Demo Automação WEB com Cypress"
+                                                        allowfullscreen>
+                                                </iframe>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             
-                            <!-- Project Card 2-->
-                          
+                            <!-- Project Card 2 -->
+                           
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-8 p-5">
+                                            <h3 class="fw-bolder">API com Robot Framework</h3>
+                                            <h4 class="fw-bolder">(Projeto em Desenvolvimento)</h4>
+                                            <p>
+                                                O projeto robot-api foi desenvolvido com foco na automação de testes para APIs REST em Robot Framework, seguindo boas práticas de mercado.
+                                                Utiliza Python para bibliotecas de suporte, Postman para validação das APIs e integração com Jira para gestão ágil. O
+                                                projeto está versionado no GitHub com pipeline de CI/CD, garantindo qualidade, rastreabilidade e manutenção contínua.
+                                            </p>
+                                            
+                                            <h5 class="mt-3">Cenários de Teste Implementados 🔍</h5>
+                                            <ul class="mb-0">
+                                                <li><strong>Login:</strong> Testa o login com credenciais válidas e gera um token.</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-md-4 text-center">
+                                            <img class="img-fluid rounded" 
+                                                 src="assets/Robot-framework-logo.png"
+                                                 alt="Automação WEB com Cypress" 
+                                                 style="max-height: 200px; object-fit: contain;" />
+                                            
+                                            <div class="mt-3 px-5">
+                                                <a href="https://github.com/kaiqferraz/robot-api" 
+                                                   target="_blank" 
+                                                   class="btn btn-access-code">
+                                                    Acesse o Código-Fonte
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Video Demo -->
+                                    <div class="row g-0">
+                                        <div class="col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <video class="rounded w-100" 
+                                                       controls 
+                                                       playsinline 
+                                                       preload="metadata" 
+                                                       poster="assets/robot-api-video.JPG">
+                                                    <source src="assets/robot-api.mp4" type="video/mp4">
+                                                    <source src="assets/robot-api.webm" type="video/webm">
+                                                    <source src="assets/robot-api.mkv" type="video/x-matroska">
+                                                    Seu navegador não suporta vídeos em HTML5.
+                                                </video>
+                                                
+                                                <!-- Alternative: YouTube/Vimeo Embed -->
+                                                <!--
+                                                <iframe class="rounded w-100" 
+                                                        src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
+                                                        title="Demo Automação WEB com Cypress"
+                                                        allowfullscreen>
+                                                </iframe>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Call to action section-->
+            
+            <!-- Call to Action Section -->
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4"> Sinta-se à vontade para conversar comigo!</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="https://wa.me/5511959536164">WhatsApp</a>
+                        <h2 class="display-4 fw-bolder mb-4">
+                            Sinta-se à vontade para conversar comigo!
+                        </h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" 
+                           href="https://wa.me/5511959536164">
+                            WhatsApp
+                        </a>
                     </div>
                 </div>
             </section>
         </main>
-        <!-- Footer-->
+        
+        <!-- Footer -->
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Kaique Ferraz &copy; 2025</div></div>
+                    <div class="col-auto">
+                        <div class="small m-0">Kaique Ferraz &copy; 2025</div>
+                    </div>
                     <!-- <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
@@ -133,9 +241,9 @@
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+        
+        <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
